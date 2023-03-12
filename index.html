@@ -19,71 +19,70 @@
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
+    <nav>
+        <button class="btn" id="showTab"><i class="fa fa-bars fa-3x"></i></button>
         <div id="wrap">
             <div class="wrap-content">
                 <div id="div-logo">
                     <a href="index.html"><img id="logo" src="Images/logo2.png" alt=""></a>
                 </div>
-                <!-- <div id="div-text">
-                    <h2 class="text-light text-center fw-bolder">Journal of scientific articles</h2>
-                </div> -->
             </div>
         </div>
-        <div class="container-fluid" id="menu">
-            <ul id="main">
-                <li>
-                    <a href="#">Trang chủ</a>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropbtn">Thông tin</a>
-                    <div class="dropdown-content">
-                        <a href="#">Khu vực nghiên cứu</a>
-                        <a href="#">Yếu tố tác động</a>
-                        <a href="#">Lập chỉ mục</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropbtn">Tác giả</a>
-                    <div class="dropdown-content">
-                        <a href="#">Hướng dẫn tác giả</a>
-                        <a href="#">Xuất bản giấy</a>
-                        <a href="#">Chi phí</a>
-                        <a href="#">Gửi bản thảo</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropbtn">Lưu trữ</a>
-                    <div class="dropdown-content">
-                        <a href="#">Vấn đề hội nghị</a>
-                        <a href="#">Tìm kiếm nâng cao</a>
-                        <a href="#">Vấn đề đặc biệt</a>
-                        <a href="#">Các vấn đề khác</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropbtn">Đề xuất</a>
-                    <div class="dropdown-content">
-                        <a href="#">Đề xuất hội nghị</a>
-                        <a href="#">Đề xuất đặc biệt</a>
-                        <a href="#">Câu hỏi thường gặp</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Liên hệ</a>
-                </li>
-                <li>
-                    <a href="#">Đăng nhập</a>
-                </li>
+            <div id="menu">
+                <ul id="main">
+                    <li>
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="dropdown1">
+                        <a href="javascript:void(0);" class="dropbtn1">Thông tin</a>
+                        <div class="dropdown-content1">
+                            <a href="#">Khu vực nghiên cứu</a>
+                            <a href="#">Yếu tố tác động</a>
+                            <a href="#">Lập chỉ mục</a>
+                        </div>
+                    </li>
+                    <li class="dropdown1">
+                        <a href="javascript:void(0);" class="dropbtn1">Tác giả</a>
+                        <div class="dropdown-content1">
+                            <a href="#">Hướng dẫn tác giả</a>
+                            <a href="#">Xuất bản giấy</a>
+                            <a href="#">Chi phí</a>
+                            <a href="#">Gửi bản thảo</a>
+                        </div>
+                    </li>
+                    <li class="dropdown1">
+                        <a href="javascript:void(0);" class="dropbtn1">Lưu trữ</a>
+                        <div class="dropdown-content1">
+                            <a href="#">Vấn đề hội nghị</a>
+                            <a href="#">Tìm kiếm nâng cao</a>
+                            <a href="#">Vấn đề đặc biệt</a>
+                            <a href="#">Các vấn đề khác</a>
+                        </div>
+                    </li>
+                    <li class="dropdown1">
+                        <a href="javascript:void(0);" class="dropbtn1">Đề xuất</a>
+                        <div class="dropdown-content1">
+                            <a href="#">Đề xuất hội nghị</a>
+                            <a href="#">Đề xuất đặc biệt</a>
+                            <a href="#">Câu hỏi thường gặp</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng nhập</a>
+                    </li>
 
-            </ul>
-        </div>
-    </header>
+                </ul>
+            </div>
+    </nav>
     <!-- END -->
     <!-- CONTENT -->
     <section class="content container">
@@ -170,10 +169,10 @@
                         <div class="box-body">
                             <!-- <h6 class="fw-bold">Tin tức cho các blogger</h6> -->
                             <ul class="fa-ul" id="ul-author">
-                                <li>Chi phí đăng bài</li>
-                                <li>Làm thế nào để đăng bài</li>
-                                <li>Chi phí phát sinh</li>
-                                <li>Yêu cầu hủy bài</li>
+                                <li><a href="#">Chi phí đăng bài</a></li>
+                                <li><a href="#">Làm thế nào để đăng bài</a></li>
+                                <li><a href="#">Chi phí phát sinh</a></li>
+                                <li><a href="#">Yêu cầu hủy bài</a></li>
                             </ul>
                         </div>
                     </div>
@@ -186,8 +185,8 @@
                         <div class="box-body">
                             <!-- <h6 class="fw-bold">Tin tức cho các blogger</h6> -->
                             <ul class="fa-ul" id="ul-author">
-                                <li>Vấn đề hiện tại</li>
-                                <li>Vấn đề quá khứ</li>
+                                <li><a href="#">Vấn đề hiện tại</a></li>
+                                <li><a href="#">Vấn đề quá khứ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -200,9 +199,9 @@
                         <div class="box-body">
                             <!-- <h6 class="fw-bold">Tin tức cho các blogger</h6> -->
                             <ul class="fa-ul" id="ul-author">
-                                <li>Các chính sách</li>
-                                <li>Điều khoản & điều kiện</li>
-                                <li>Chính sách hoàn tiền</li>
+                                <li><a href="#">Các chính sách</a></li>
+                                <li><a href="#">Điều khoản & điều kiện</a></li>
+                                <li><a href="#">Chính sách hoàn tiền</a></li>
                             </ul>
                         </div>
                     </div>
@@ -366,12 +365,16 @@
             </div>
         </div>
     </section>
+    <!-- SCROLL BUTTON -->
+    <button onclick="topFunction()" id="btnscrollTop" title="Go to top"><i class="fa fa-toggle-up" aria-hidden="true"></i></button>
+    <script src="js/main.js"></script>
+    <!--  -->
     <!-- END  -->
     <!-- FOOTER -->
     <footer class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-lg-3 col-md-3 col-12 mb-5">
                     <h4 class="footer-tile">Dành cho tác giả</h4>
                     <div class="footer-content">
                         <a href="#">Nộp bài</a><br>
@@ -379,7 +382,7 @@
                         <a href="#">Thanh toán</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-lg-3 col-md-3 col-12 mb-5">
                     <h4 class="footer-tile">Lưu trữ</h4>
                     <div class="footer-content">
                         <a href="#">Vấn đề hiện tại</a><br>
@@ -389,15 +392,15 @@
                 <!-- <div class="col-lg-2 col-md-2 col-12">
                     <h4 class="footer-tile">Lưu trữ</h4>
                 </div> -->
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-lg-3 col-md-3 col-12 mb-5" id="div-icon">
                     <h4 class="footer-tile">Theo dõi chúng tôi</h4>
-                    <button id="icon-follow"><a href="#"><i class="fa fa-facebook-square fa-2x"
+                    <button><a href="#" id="icon-follow"><i class="fa fa-facebook-square fa-2x"
                                 aria-hidden="true"></i></a></button>
-                    <button id="icon-follow"><a href="#"><i class="fa fa-google-plus-square fa-2x"
+                    <button ><a href="#" id="icon-follow"><i class="fa fa-google-plus-square fa-2x"
                                 aria-hidden="true"></i></a></button>
-                    <button id="icon-follow"><a href="#"><i class="fa fa-twitter-square fa-2x"
+                    <button ><a href="#" id="icon-follow"><i class="fa fa-twitter-square fa-2x"
                                 aria-hidden="true"></i></a></button>
-                    <button id="icon-follow"><a href="#"><i class="fa fa-linkedin-square fa-2x"
+                    <button ><a href="#" id="icon-follow"><i class="fa fa-linkedin-square fa-2x"
                                 aria-hidden="true"></i></a></button>
                 </div>
                 <div class="col-lg-3 col-md-3 col-12">
@@ -405,8 +408,8 @@
                     <table id="footer-table">
                         <tbody>
                             <tr>
-                                <td style="width: 20%;"><i class="fa fa-phone-square" aria-hidden="true"></i></td>
-                                <td style="width: 80%;">028 3985 1932</td>
+                                <td style="width: 10%;"><i class="fa fa-phone-square" aria-hidden="true"></i></td>
+                                <td style="width: 90%;">028 3985 1932</td>
                             </tr>
                             <tr>
                                 <td><i class="fa fa-envelope-square" aria-hidden="true"></i></td>

@@ -1,3 +1,6 @@
+html{
+    width: 100%;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -22,7 +25,7 @@ body {
   }
 
 /* #### MENU ########### */
-header {
+nav {
     height: 200px;
     max-height: 200px;
     background-color: #264653;
@@ -130,7 +133,7 @@ img#logo {
 
 #menu ul>li>a {
     display: block;
-    height: 55px;
+    /* height: 55px; */
     text-align: center;
     color: #fff;
     font-weight: 900;
@@ -138,36 +141,62 @@ img#logo {
     text-decoration: none;
     /* position: relative; */
 }
+/* Button */
+#btnscrollTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #2a9d8f; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #btnscrollTop:hover {
+    background-color: #e9c46a; /* Add a dark-grey background on hover */
+  }
+  #showTab
+  {
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 60px;
+    margin-bottom: auto;
+    color: #2a9d8f;
+  }
+/*  */
 
 /* ###  DROP DOWN MENU  #### */
-li a, .dropbtn {
+li a, .dropbtn1 {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-/*   
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  } */
   
-  li.dropdown {
+  li.dropdown1 {
     display: inline-block;
   }
   
-  .dropdown-content {
+  .dropdown-content1 {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #2a9d8f;
+    top: 55px;
     /* opacity: 1; */
     /* min-width: 160px; */
     width: 240px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
+    z-index: 100;
   }
   
-  .dropdown-content a {
+  .dropdown-content1 a {
     color: #fff;
     padding: 12px 16px;
     text-decoration: none;
@@ -175,16 +204,24 @@ li a, .dropbtn {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #e9c46a;color: #fff;}
+  .dropdown-content1 a:hover {background-color: #e9c46a;color: #fff;}
   
-  .dropdown:hover .dropdown-content {
+  .dropdown1:hover .dropdown-content1 {
     display: block;
-    z-index: 1000;
   }
 
 
 
 @media (max-width: 992px) {
+    html{
+        width: fit-content;
+    }
+    nav{
+        width: fit-content;
+    }
+    .wrap-content{
+        width: fit-content;
+    }
     #menu {
         display: none;
     }
@@ -195,10 +232,15 @@ li a, .dropbtn {
 
     #div-logo {
         display: none;
-        display: flex;
+        /* display: flex; */
+        width: 100% !important;
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* footer{
+        width: fit-content;
+    } */
 
 }
 
@@ -330,12 +372,24 @@ ul#ul-author {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    margin: 1%;
+    margin: 0;
 }
 
 ul#ul-author li {
     font-size: smaller;
-
+    /* margin: 0; */
+}
+ul#ul-author li::marker{
+    margin-right: 1px !important;
+}
+ul#ul-author li a{
+    color: #264653 !important;
+    margin: 0;
+    padding: 2%;
+    padding-left: 0;
+}
+ul#ul-author li a:hover{
+    color: #e76f51 !important;
 }
 
 /* #### STYLE DIV RIGHT */
@@ -402,20 +456,13 @@ footer{
 .footer-content  a:hover{
     color: #2a9d8f;
 }
-button#icon-follow
-{
-    border: none;
-    border-radius: 50%;
-    padding: 5%;
-    opacity: 0.3;
-    height: 60px;
-    width: 60px;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-}
-button#icon-follow > a{
+a#icon-follow{
     color: #264653;
+    width: 100%;
+    height: 100%;
+}
+button#icon-follow > a > i{
+    margin: auto;
 }
 button#icon-follow:hover{
     background-color: #2a9d8f;
@@ -439,4 +486,19 @@ table#footer-table td{
 /* END */
 a:hover{
     text-decoration: none;
+}
+div#div-icon > button{
+    border: none;
+    border-radius: 50%;
+    padding: 5%;
+    opacity: 0.3;
+    height: 60px;
+    width: 60px;
+    /* display: inline; */
+    margin: auto !important;
+}
+div#div-icon > button:hover
+{
+    background-color: #2a9d8f;
+    opacity: 1;
 }
