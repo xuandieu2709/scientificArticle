@@ -1,0 +1,180 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #5e737b !important;
+    color: #264653;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.user_card {
+    height: 450px;
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #2a9d8f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.user_cardSignUp {
+    height: auto;
+    width: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #2a9d8f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    border-top: 15px solid #fff;
+    background: #5e737b;
+    padding: 10px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    /* background-color: #2a9d8f; */
+    /* border: 2px solid white; */
+}
+.brand_logo1 {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    color: #fff;
+    /* background-color: #2a9d8f; */
+    /* border: 2px solid white; */
+}
+
+.form_container {
+    margin-top: 100px;
+}
+.formSignup_container{
+    margin-top: 120px;
+}
+
+.btn_login {
+    width: 100%;
+    background: #264653 !important;
+    color: white !important;
+    border: #e9c46a 1px solid;
+}
+.btn_login:hover{
+    border: #e76f51 1px solid;
+}
+
+.btn_login:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 5rem;
+}
+
+.input-group-text {
+    background: #264653 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,.input_pass{
+    border: 2px solid #264653;
+}
+.input_pass{
+    padding-right: 2em;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    
+}
+.input_user:focus,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+    border: 2px solid #e76f51;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #264653 !important;
+}
+
+a {
+    color: white;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover{
+    color: #264653;
+}
+a.btn-back{
+    color: #fff !important;
+}
+.btn-confirm{
+    background-color: #264653;
+    color: #fff;
+    border: 2px solid #e9c46a;
+}
+.btn-confirm:hover{
+    border: 2px solid #e76f51;
+    color: #fff;
+}
+.btn-back{
+    background-color: #e9c46a;
+    color: #fff;
+    border: 2px solid #264653;
+    width: fit-content;
+}
+.btn-back:hover{
+    border: 2px solid #e76f51;
+    color: #264653 !important;
+}
+/* Custom Select JOB */
+select#selectJOB > option:hover{
+    padding: 1em;
+    color: #e76f51 !important;
+}
+span[id*="showpass"]{
+    position: absolute;
+    z-index: 100;
+    right: 10px;
+    top: 6px;
+    bottom: auto;
+}
+span[id*="showpass"]:hover{
+    cursor: pointer;
+}
+div[id*="div-show-pass"]{
+    position: relative;
+}

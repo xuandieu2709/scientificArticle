@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUH SCIENCE - Đăng nhập</title>
+    <link rel="shortcut icon" href="Images/logo2.png" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+            <div class="user_card">
+                <div class="d-flex justify-content-center">
+                    <div class="brand_logo_container">
+                        <a href="index.html"><img src="Images/logo2.png" class="brand_logo" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center form_container">
+                    <form method="post" action="javascript:void(0);">
+                        <div class="input-group mb-4">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-user-circle-o"></i></span>
+                            </div>
+                            <input type="text" name="" class="form-control input_user" value=""
+                                placeholder="Tên đăng nhập">
+                        </div>
+                        <div class="input-group mb-3" id="div-show-pass">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-keyboard-o"></i></span>
+                            </div>
+                            <input type="password" name="" id="showpass" class="form-control input_pass" value=""
+                                placeholder="Mật khẩu">
+                                <span id="showpass"><i class="fa fa-eye"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                <label class="custom-control-label" for="customControlInline">Nhớ mật khẩu</label>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-3">
+                            <button type="submit" name="button" class="btn btn_login">Đăng nhập</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                        <b>Bạn chưa có tài khoản?</b> <a href="signup.html" class="ml-2">Đăng ký</a>
+                    </div>
+                    <div class="d-flex justify-content-center links">
+                        <a href="javascript:void(0);">Quên mật khẩu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

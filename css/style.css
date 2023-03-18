@@ -168,6 +168,7 @@ img#logo {
     margin-top: 60px;
     margin-bottom: auto;
     color: #2a9d8f;
+    display: none;
   }
 /*  */
 
@@ -237,6 +238,9 @@ li a, .dropbtn1 {
         margin-left: auto;
         margin-right: auto;
     }
+    #showTab{
+        display: block;
+    }
 
     /* footer{
         width: fit-content;
@@ -293,6 +297,11 @@ li a, .dropbtn1 {
 }
 
 .box-content>.box-body>.post {
+    margin: 2%;
+    height: 180px;
+    /* overflow: auto; */
+}
+.post-wrap{
     margin: 2%;
     height: 180px;
     overflow: auto;

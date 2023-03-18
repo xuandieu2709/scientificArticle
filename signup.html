@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUH SCIENCE - Đăng ký</title>
+    <link rel="shortcut icon" href="Images/logo2.png" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+            <div class="user_cardSignUp">
+                <div class="d-flex justify-content-center">
+                    <div class="brand_logo_container">
+                        <!-- <a href="index.html"><img src="Images/logo2.png" class="brand_logo" alt="Logo"></a> -->
+                        <h4 class="brand_logo1"><b>Tạo mới một tài khoản</b></h4>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center formSignup_container">
+                    <form method="post" action="javascript:void(0);">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-address-card-o"></i></span>
+                                    </div>
+                                    <input type="text" name="" class="form-control input_user" value=""
+                                        placeholder="Họ và tên">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-birthday-cake"></i></span>
+                                    </div>
+                                    <input type="date" name="" class="form-control input_user" value=""
+                                        placeholder="Sinh nhật">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-user-circle-o"></i></span>
+                                    </div>
+                                    <input type="text" name="" class="form-control input_user" value=""
+                                        placeholder="Tên đăng nhập">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group mb-4" id="div-show-pass">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-key"></i></span>
+                                    </div>
+                                    <input type="password" name="" class="form-control input_pass" value=""
+                                        placeholder="Mật khẩu" id="showpass">
+                                    <span id="showpass"><i class="fa fa-eye"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12" id="div-show-pass">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-keyboard-o"></i></span>
+                                    </div>
+                                    <input type="password" name="" class="form-control input_pass" value=""
+                                        placeholder="Xác nhận mật khẩu" id="showpass1">
+                                    <span id="showpass1"><i class="fa fa-eye"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-envelope-o"></i></span>
+                                    </div>
+                                    <input type="email" name="" class="form-control input_pass" value=""
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-4 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-suitcase"></i></span>
+                                    </div>
+                                    <select name="" class="form-control input_pass" id="selectJOB">
+                                        <option value="0" selected disabled>Công việc</option>
+                                        <option>Nhân viên văn phòng</option>
+                                        <option>Kỹ sư CNTT</option>
+                                        <option>Nhà báo</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-12">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-building-o"></i></span>
+                                    </div>
+                                    <input type="text" name="" class="form-control input_pass" value=""
+                                        placeholder="Nơi làm việc(Tên công ty)">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-6 col-md-4 col-lg-3 mb-3">
+                        <a href="login.html" class="btn btn-back d-block m-auto">Quay lại</a>
+                    </div>
+                    <div class="col-6 col-md-8 col-lg-9 mb-3">
+                        <button class="btn btn-confirm d-block m-auto" type="submit">Đăng ký</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
