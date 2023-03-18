@@ -21,3 +21,9 @@ function topFunction() {
 $(document).ready(function () {
   $("div#div-post-wrap").slideUp(2000).slideDown(2000);
 });
+$(document).on('click','button#showTab', function () {
+  $('div#menu').css('display', 'block');
+});
+$(document).on('click','span#close-menu', function () {
+  $('div#menu').css('display', 'none');
+});
