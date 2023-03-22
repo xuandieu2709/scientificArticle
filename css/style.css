@@ -1,7 +1,7 @@
 html,
 body {
     font-family: 'Times New Roman', Times, serif;
-    width: 100%;
+    width: auto;
     height: 100%
 }
 
@@ -396,7 +396,7 @@ li.dropdown1 {
 /* #### STYLE DIV LEFT */
 .content {
     width: 950px;
-    margin-top: 60px;
+    margin-top: 3em;
 }
 
 .div-box {
@@ -498,18 +498,19 @@ li.dropdown1 {
 .btn-send-draft {
     border-radius: 3px;
     background-color: #264653 !important;
+    border: 3px solid #2a9d8f;
     display: block;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: none;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 2%;
 }
 
 .btn-send-draft:hover {
-    background-color: #e9c46a !important;
+    background-color: #2a9d8f !important;
+    border: 3px solid #264653;
 }
 
 a {
@@ -550,6 +551,17 @@ ul#ul-author li a:hover {
     color: #e76f51 !important;
 }
 
+/* ### SUB MENU #### */
+.sub-menu-bar{
+    background-color: #2a9d8f;
+    padding: 0.2em;
+    padding-left: 1em;
+    margin-bottom: 0.8em;
+}
+.sub-menu-bar h4{
+    margin-bottom: 0;
+    color: #fff;
+}
 /* #### STYLE DIV RIGHT */
 .box-images {
     height: auto;
@@ -591,7 +603,145 @@ ul#list-choose li a {
 ul#list-choose li a:hover {
     color: #2a9d8f !important;
 }
+/* #####  EDIT LABEL POST  ####### */
+label{
+    font-weight: bold;
+    color: #264653;
+}
+input{
+    color: #264653;
+}
+div#content-post input,div#content-post select#selectNumberAuthor,div#content-post textarea{
+    padding: 0.4em;
+    padding-left: 0.8em;
+    border: 2px solid #264653;
+    border-radius: 5px;
+}
+div#details-author input{
+    padding: 0.1em;
+    padding-left: 0.8em;
+}
+div#div-file button
+{
+    border-radius: 5px;
+    background-color: #e9c46a;
+    cursor: pointer;
+}
+div#div-file button > input
+{
+    border: none;
+    cursor: pointer;
+}
+#divAuthor{
+    padding-left: 1em;
+}
+.btn-submit{
+    background-color: #264653;
+    border: #e9c46a 2px solid;
+    color: #fff;
+}
+.btn-submit:hover{
+    color: #fff;
+    background-color: #e9c46a;
+    border: #264653 2px solid;
+}
+/* ##  EDIT TAB MANAGER### */
+ul#tab-menu > li > a
+{
+    color: #264653;
+}
+table > tbody > tr > td > button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #264653 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    padding: 0;
+}
+table > tbody > tr > td > button > i{
+    margin-left: auto;
+    margin-right: auto;
+}
+table#example
+{
 
+}
+ul.pagination > li > a
+{
+    color: #264653 !important;
+}
+.page-item.active .page-link{
+    background-color: #2a9d8f !important;
+    color: #fff !important;
+}
+button#btn-infor
+{
+    background-color: #2a9d8f;
+    border: #e76f51 2px solid;
+    color: #fff;
+}
+button#btn-listReviewer
+{
+    background-color: #264653;
+    color: #fff;
+    border: #e9c46a 2px solid;
+}
+button#btn-infor:hover
+{
+    background-color: #e76f51 ;
+    border: #2a9d8f  2px solid;
+}
+button#btn-listReviewer:hover
+{
+    background-color: #e9c46a;
+    border: #264653 2px solid;
+}
+button#btn-file
+{
+    background-color: #e76f51;
+    color: #fff;
+    border: #264653 2px solid;
+}
+button#btn-file:hover
+{
+    background-color: #264653;
+    border: #e76f51 2px solid;
+}
+
+button#btn-pass
+{
+    background-color: #2a9d8f;
+    color: #fff;
+    border: #264653 2px solid;
+}
+button#btn-pass:hover
+{
+    background-color: #264653;
+    border: #2a9d8f 2px solid;
+}
+button#btn-cancel
+{
+    background-color: #b41414;
+    color: #fff;
+    border: #264653 2px solid;
+}
+button#btn-cancel:hover
+{
+    background-color: #264653;
+    border: #e76f51 2px solid;
+}
+button#btn-upload
+{
+    background-color: #e9c46a;
+    color: #fff;
+    border: #264653 2px solid;
+}
+button#btn-upload:hover
+{
+    background-color: #264653;
+    border: #e9c46a 2px solid;
+}
 /* END */
 /* FOOTER */
 footer {
